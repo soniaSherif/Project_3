@@ -49,24 +49,23 @@ h1 {
   width: 100%; /* Ensure the innerCard div takes up the entire width of the Cards */
   height: 100%; /* Ensure the innerCard div takes up the entire height of the Cards */
 }
-
-.Back.blue, .Front.blue {
-  background-color: blue;
+.Cards.lightblue {
+  background-color: lightblue;
+}
+.Cards.lightyellow{
+  background-color: lightyellow;
+}
+.Cards.lightgrey {
+  background-color: lightgrey;
 }
 
-.Back.grey, .Front.grey {
-  background-color: grey;
+.Cards.pink {
+  background-color: pink;
 }
 
-.Back.red, .Front.red {
-  background-color: red;
+.Cards.lightgreen{
+  background-color: lightgreen;
 }
-
-.Back.green, .Front.green {
-  background-color: green;
-}
-
-
 .buttons{
   display: flex;
   flex-direction: row;
@@ -108,4 +107,20 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.correct {
+  border: 5px solid green;
+}
+
+.incorrect {
+  border: 5px solid red;
+}
+
+input[type="text"] {
+  font-size: 16px;
+  width: 200px;
+  margin: 10px;
+}
+.borderless{
+  border:none;
 }
